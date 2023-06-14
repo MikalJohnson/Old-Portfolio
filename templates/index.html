@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Welcome</title>
-</head>
-<body>
-	<h1>Hello</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{url_for('static', filename = 'styles.css')}}"/>
+    <title>Welcome</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+	<div class="intro">
+		<p>Hello, My name is</p>
+		<h1><span>M</span>ikal <span>J</span>ohnson</h1>
+		<p>A Full-Stack Developer</p>
+		<button>Show More</button>
+	</div>
+    
+	<div class="about-me">
+		<div class="left-about-me">
+
+		</div>
+		<div class="right-about-me">
+
+		</div>
+	</div>
+
+    <script src="app.js"></script>
+  </body>
 </html>

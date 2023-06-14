@@ -1,0 +1,62 @@
+body {
+  background-color: #1f1f1f;
+  color: white;
+}
+
+/* Styling for the header/banner */
+
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background-color: #c8590a;
+}
+
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.intro{
+    background-color: #292929;
+    height: 100%;
+
+}
+
+span {
+    font-size: 2em;
+    color: #c8590a;
+}
+
+.intro > h1 {
+  animation: slide-in 3s ease-in-out forwards;
+}
+
+
+
+button{
+    background-color: #c8590a;
+}
