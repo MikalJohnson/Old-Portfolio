@@ -55,8 +55,16 @@ span {
   animation: slide-in 3s ease-in-out forwards;
 }
 
-
-
 button{
     background-color: #c8590a;
+}
+
+.about-me{
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-about-me img{
+  height: 300px;
+  width: 300px;
 }
