@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{url_for('static', filename = 'styles.css')}}"/>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename = 'styles.css')}}"
+    />
     <title>Welcome</title>
   </head>
   <body>
@@ -18,29 +21,72 @@
       </nav>
     </header>
 
-    <div class="intro">
-      <p>Hello, My name is</p>
-      <h1><span>M</span>ikal <span>J</span>ohnson</h1>
-      <p>A Full-Stack Developer</p>
-      <button>Show More</button>
+    <div class="intro-wrapper">
+      <div class="left-intro">
+        <p>Hello, My name is</p>
+        <h1><span>M</span>ikal <span>J</span>ohnson</h1>
+        <p>A Full-Stack Developer</p>
+        <button>Show More</button>
+      </div>
+      <div class="right-intro">
+        <img
+        src="{{url_for('static', filename='Placeholder.png')}}"
+        alt="Placeholder"/>
+      </div>
     </div>
 
-    <div class="about-me">
+    <div class="about-me-wrapper">
       <div class="left-about-me">
-        <img src="{{url_for('static', filename='Placeholder.png')}}" alt="Placeholder">
+        <img
+          src="{{url_for('static', filename='Placeholder.png')}}"
+          alt="Placeholder"
+        />
       </div>
       <div class="right-about-me">
         <p>About Me</p>
         <h2>Who Am I</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-          facilis quisquam provident cumque tempore earum perspiciatis tempora
-          et velit dolorem suscipit vero rem sapiente, ipsum odit! Perspiciatis
-          repudiandae esse hic minima placeat minus illum dignissimos sequi
-          nesciunt debitis? Maiores praesentium, perferendis non repellat
-          doloribus ea deserunt odit iusto earum expedita?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+          voluptate consectetur quae. Velit, quae facilis nostrum ducimus, ut
+          nobis quidem voluptates exercitationem adipisci voluptatum distinctio
+          necessitatibus. Expedita, excepturi blanditiis. Consequatur, mollitia
+          atque rerum enim fugiat similique consequuntur repudiandae ipsum
+          minima harum, maxime qui aliquid totam, animi fugit ratione obcaecati
+          ut? Ad ducimus iusto voluptas distinctio molestias. Excepturi quae
+          quis omnis eos tenetur aut consectetur tempora molestiae cum et
+          dolores, nesciunt dolore ipsa minus saepe itaque sed tempore incidunt
+          at. Necessitatibus expedita impedit quisquam laudantium, maxime
+          voluptatem ea facere, qui enim rerum odio at illum unde facilis
+          delectus corrupti eos aperiam suscipit excepturi ratione sit labore
+          est obcaecati quibusdam! Voluptatum est illo dolore iure recusandae in
+          architecto natus fuga autem maxime, a nulla fugit corporis ratione
+          ipsum laboriosam quae ducimus esse? Veniam, dicta nobis laudantium
+          eligendi modi corrupti error accusantium optio iure eaque itaque ipsa
+          possimus ab fuga provident at minus. Voluptatibus, repudiandae? Aut
+          aspernatur sit quas suscipit quisquam labore obcaecati at ratione
+          repudiandae maiores voluptatibus, fugit veritatis, fugiat porro nobis
+          quis, repellendus laborum! Vel nemo unde ab quidem earum obcaecati
+          vitae debitis quam odio natus, blanditiis quisquam saepe labore harum
+          ullam. Itaque, iure? Doloribus quos eveniet non ullam modi ratione et
+          ducimus, hic veniam voluptatem esse perspiciatis ipsam cupiditate vel
+          voluptatum optio recusandae omnis vitae impedit tempora dolores.
+          Beatae placeat fuga omnis atque sequi quae distinctio, iure laborum id
+          iste eum sint voluptatibus saepe, quia blanditiis molestias incidunt
+          at corporis sit fugiat itaque, necessitatibus accusantium.
+          Necessitatibus eum deserunt saepe pariatur, ipsum mollitia nam quo
+          beatae reiciendis. Deserunt tempore molestiae nisi beatae obcaecati,
+          dicta, numquam non expedita officia quisquam facere quam! Laudantium
+          molestiae quasi eaque alias repellendus aut vero ad veritatis
+          voluptas? Impedit voluptas iure temporibus rerum cumque minus fugiat
+          voluptates nam soluta, error unde quam magnam, ipsam, dignissimos rem
+          est!
         </p>
       </div>
+    </div>
+
+    <div class="services-wrapper">
+      <!-- Some flask loop to display projects or services need to go here -->
+
     </div>
 
     <script src="app.js"></script>

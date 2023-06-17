@@ -1,11 +1,15 @@
 body {
   background-color: #1f1f1f;
   color: white;
+  font-family: sans-serif;
 }
 
 /* Styling for the header/banner */
 
 
+nav{
+  height: 45px;
+}
 
 nav ul {
   list-style-type: none;
@@ -40,10 +44,26 @@ nav ul li a:hover {
   }
 }
 
-.intro{
-    background-color: #292929;
-    height: 100%;
+.intro-wrapper{
+  display: flex;
+  justify-content: space-around;
+  justify-items: baseline;
+  align-content: space-between;
+  background-color: #292929;
+  align-items: center;
+  height: 700px;
+}
 
+.left-intro{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    font-size: 2rem;
+}
+
+.right-intro img{
+  height: 400px;
+  width: 400px;
 }
 
 span {
@@ -51,20 +71,28 @@ span {
     color: #c8590a;
 }
 
-.intro > h1 {
+.left-intro > h1 {
   animation: slide-in 3s ease-in-out forwards;
 }
 
 button{
     background-color: #c8590a;
+    width: 100px;
 }
 
-.about-me{
+.about-me-wrapper{
   display: flex;
   justify-content: space-around;
+  justify-items: center;
+  margin: 0px;
 }
 
 .left-about-me img{
   height: 300px;
   width: 300px;
+}
+
+.right-about-me{
+  height: 300;
+  width: 50%;
 }
