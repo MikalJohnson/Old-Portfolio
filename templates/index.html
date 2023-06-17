@@ -15,8 +15,8 @@
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://www.linkedin.com/in/mikaljohnson24?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHrId4LA6R3StxXmu961OvA%3D%3D">Projects</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -30,17 +30,15 @@
       </div>
       <div class="right-intro">
         <img
-        src="{{url_for('static', filename='Placeholder.png')}}"
-        alt="Placeholder"/>
+          src="{{url_for('static', filename='Placeholder.png')}}"
+          alt="Placeholder"
+        />
       </div>
     </div>
 
     <div class="about-me-wrapper">
       <div class="left-about-me">
-        <img
-          src="{{url_for('static', filename='Placeholder.png')}}"
-          alt="Placeholder"
-        />
+        <img src="{{url_for('static', filename='Placeholder.png')}}" alt="Placeholder"/>
       </div>
       <div class="right-about-me">
         <p>About Me</p>
@@ -84,12 +82,27 @@
       </div>
     </div>
 
-    <div class="services-wrapper">
-      <!-- Some flask loop to display projects or services need to go here -->
-      <img src="{{url_for('static', filename='Placeholder.png')}}" alt="Placeholder"/>
-      <img src="{{url_for('static', filename='Placeholder.png')}}" alt="Placeholder"/>
-      <img src="{{url_for('static', filename='Placeholder.png')}}" alt="Placeholder"/>
+    <h2><center>My Services</center></h2>
+    <p><center>What can i do</center></p>
+    <div id="services">
+      <div class="service">
+        <img src="{{url_for('static', filename='Placeholder.png')}}" alt="Placeholder"/>
+        <h3>Service 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor
+          urna et enim scelerisque commodo.</p>
+      </div>
+      <div class="service">
+        <img src="{{url_for('static', filename='Placeholder.png')}}" alt="Placeholder"/>
+        <h3>Service 2</h3>
+        <p>Phasellus dignissim metus a tortor rhoncus, nec dictum nulla varius.</p>
+      </div>
+      <div class="service">
+        <img src="{{url_for('static', filename='Placeholder.png')}}" alt="Placeholder"/>
+        <h3>Service 3</h3>
+        <p>Nullam consectetur diam et tortor fringilla rhoncus.</p>
+      </div>
     </div>
+
 
     <script src="app.js"></script>
   </body>
