@@ -96,3 +96,13 @@ button{
   height: 300;
   width: 50%;
 }
+
+.services-wrapper{
+  display: flex;
+
+}
+
+.services-wrapper img{
+  height: 200px;
+  width: 200px;
+}
